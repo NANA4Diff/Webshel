@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$password_hash = '$2y$10$fEL43zOKdO.ZuCbO1A4CiOn2rNvOKz61HfgJi6rwTzsTkCwBgo4LO';
+$password_hash = '$2y$10$YfU7AiwmwZuKra5w0y4dTOrGevc4JGLx/rFuxKq0INgSVs0ToVH4K';
 
 function display_login_form() {
     ?>

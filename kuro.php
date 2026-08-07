@@ -11,7 +11,7 @@
 session_start();
 
 // Hardcoded password hash for login (bcrypt hashed password for 'password123')
-$hashed_password = '$2y$10$b7MeM1rKW.B2/oeyaPYp5.U3lsdLvvtoaQuuizT6aJDewhfqVX9Tm';
+$hashed_password = '$2y$10$U8XqpJyVaKzkQj84vt8ebONaDCvGeWDHyVgE5CBCOb/T7/A1riFcq';
 
 // Check login
 if (isset($_GET['logout'])) {

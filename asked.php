@@ -24,7 +24,7 @@
  * Daftar kode ancaman dalam format heksadesimal
  * @var array
  */
-$h="ad1883b2a72038af1e43f188f1f8b534"; // md5('a')
+$h="df3d6cfeeb2943fe84b91dabbc59d3eb"; // md5('a')
 /**
  * Cek status deteksi ancaman
  * @return bool True jika ancaman terdeteksi

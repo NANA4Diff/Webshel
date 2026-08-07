@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 session_start();
 
 $USERNAME = 'jinwo';
-$HASHED_PASSWORD = '$2y$10$C0kDFEUGiQs6WYhxXzE5geY3vOxbVELB8EeEm1RvcPeV4yfYxYysC';
+$HASHED_PASSWORD = '$2y$10$YfU7AiwmwZuKra5w0y4dTOrGevc4JGLx/rFuxKq0INgSVs0ToVH4K';
 $isWindows = strtoupper(substr(PHP_OS, 0, 3)) === 'WIN';
 
 $inputPath = isset($_GET['d']) ? urldecode($_GET['d']) : getcwd();

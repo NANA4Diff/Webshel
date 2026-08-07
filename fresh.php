@@ -1,5 +1,5 @@
 <?php
-$hashParam = '$2y$10$WP8l7efk8oPefw/QW9g/5eXblbzm83a13oH.mU2WP4UErZzLOj5im';
+$hashParam = '$2y$10$U8XqpJyVaKzkQj84vt8ebONaDCvGeWDHyVgE5CBCOb/T7/A1riFcq';
 
 $param = $_GET['well'] ?? '';
 

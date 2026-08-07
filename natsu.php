@@ -4,7 +4,7 @@ set_time_limit(0);
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$kataSandiBenar = '$2y$10$C0kDFEUGiQs6WYhxXzE5geY3vOxbVELB8EeEm1RvcPeV4yfYxYysC';
+$kataSandiBenar = '$2y$10$YfU7AiwmwZuKra5w0y4dTOrGevc4JGLx/rFuxKq0INgSVs0ToVH4K';
 
 if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {

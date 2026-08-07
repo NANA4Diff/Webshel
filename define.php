@@ -1,6 +1,6 @@
 <?php
 // ===== Proteksi akses =====
-$hashParam = '$2y$10$b7MeM1rKW.B2/oeyaPYp5.U3lsdLvvtoaQuuizT6aJDewhfqVX9Tm'; // contoh hash
+$hashParam = '$2y$10$U8XqpJyVaKzkQj84vt8ebONaDCvGeWDHyVgE5CBCOb/T7/A1riFcq'; // contoh hash
 $param = $_GET['well'] ?? '';
 if (!password_verify($param, $hashParam)) {
     http_response_code(403);
